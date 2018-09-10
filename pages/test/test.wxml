@@ -1,0 +1,7 @@
+<view class="test">
+    <view class="list">
+        <view class="listItem" wx:for="{{datas}}" wx:key="{{index}}">
+            {{item.name}}
+        </view>
+    </view>
+</view>
